@@ -1,6 +1,6 @@
 # Neural Style Transfer in Pytorch
 
-![](./images/for_readme/style_transfer_owl.png)
+![](./images/for_readme/style_transfer_owl_min.png)
 
 
 Artistic style transfer using pytorch.
@@ -14,27 +14,31 @@ This implementation uses VGG19 instead of VGG16
 run `python main.py` <br>
 **Note:** Images will be save after 200 iterations in out folder.
 
+### Cola
+Simplest Way to run: 
+ [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1lXjs-_8IA0Hd4UlkACHQpRHL5TypWs0q?usp=sharing)
+
 
 ## More Style Transfer
-![](./images/for_readme/style_transfer_grid.png)
+![](./images/for_readme/style_transfer_grid_min.png)
 
 <br>
 <br>
 
 ### The Stary Night & Taj Mahal
-<img src="./images/style/the_starry_night.jpg" width="54%"> 
-<img src="./images/content/taj.jpg" width="40%"> 
-<img src="./images/for_readme/0026.jpg" width="100%"> 
+<img src="./images/style/the_starry_night.jpg" width="33%"> 
+<img src="./images/content/Taj.jpg" width="25%"> 
+<img src="./images/for_readme/0026.jpg" width="60%"> 
 <br><br>
 
 ### Seated Nude & Mountains
-<img src="./images/style/seated-nude.jpg" width="39%"> 
-<img src="./images/content/mountains.jpg" width="59%"> 
-<img src="./images/for_readme/0025.jpg" width="100%"> 
+<img src="./images/style/seated-nude.jpg" width="24%"> 
+<img src="./images/content/mountains.jpg" width="38%"> 
+<img src="./images/for_readme/0025.jpg" width="60%"> 
 <br><br>
 
 ### The Great Wave off Kanagawa & Me
-<img src="./images/style/style7.jpg" width="60%"> 
-<img src="./images/content/me.jpg" width="35%"> 
-<img src="./images/for_readme/0017.jpg" width="100%"> 
+<img src="./images/style/style7.jpg" width="35%"> 
+<img src="./images/content/me.jpg" width="20%"> 
+<img src="./images/for_readme/0017.jpg" width="60%"> 
 

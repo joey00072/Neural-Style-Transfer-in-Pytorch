@@ -10,6 +10,7 @@ import torch.optim as optim
 import torchvision.models as models
 from torchvision.utils import save_image
 
+torch.cuda.empty_cache()
 
 num_steps = 20000
 learning_rate = 1e-3
@@ -111,7 +112,7 @@ def transfer(model, img, style, content):
         loss.backward()
         optimizer.step()
         if idx % 200 == 0:
-            save_image(img.clone().detach(), f"out/out_{(idx//200):04d}.jpg")
+            save_image(img.clone().detach(), f"out/{(idx//200):04d}.jpg")
 
     return img
 
@@ -120,8 +121,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = VGG().to(device).eval()
 
-style_img = load_img_as_tensor("content/style3.jpg").to(device)
-content_img = load_img_as_tensor("style/kitten2.jpg").to(device)
+style_img = load_img_as_tensor("images/style/style3.jpg").to(device)
+content_img = load_img_as_tensor("images/content/kitten2.jpg").to(device)
 
 
 img = content_img.clone().to(device)
