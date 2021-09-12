@@ -14,7 +14,7 @@ This implementation uses VGG19 instead of VGG16
 run `python main.py` <br>
 **Note:** Images will be save after 200 iterations in out folder.
 
-### Cola
+### Colab
 Simplest Way to run: 
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1lXjs-_8IA0Hd4UlkACHQpRHL5TypWs0q?usp=sharing)
 
